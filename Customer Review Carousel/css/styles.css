@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #05386B;
+    background-color: #5CDB95;
+    align-items: center;
+}
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #05386B;
+    font-family: 'Manrope', sans-serif;
+    border-bottom: 1px solid transparent;
+    transition-property: border-bottom;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    border-bottom: 1px solid #05386B;
+}
+
+img#customer-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+img#next-button{
+    height: 50px;
+    width: 50px;
+    transition: width 1s;
+    box-sizing: border-box;
+}
+
+img#next-button:hover{
+    width: 70px;
+}
+
+img#previous-button{
+    height: 50px;
+    width: 50px;
+    transition: width 1s;
+    box-sizing: border-box;
+}
+
+img#previous-button:hover{
+    width: 70px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    width: 45%;
+    margin-left: 40px;
+}
+
+#text-1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+}
+
+#text-2{
+    font-family: 'Manrope', sans-serif;
+}
+
+.rigth-content{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 45%;
+}
+
+.left-content-text{
+    margin: 50px;
+}
+
+.see-all-reviews{
+    margin-left: 50px;
+}
+
+.reviews{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #05386B;
+    color: #5CDB95;
+    height: max-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.review-text{
+    margin: 20px 40px;
+}
+
+.customer{
+    display: flex;
+    gap: 20px;
+    margin: 20px 40px;
+}
+
+.customer-info{
+    margin-top: 40px;
+}
+
+.previous-next-buttons{
+    display: flex;
+    gap: 20px;
+    margin-left: 480px;
+}
+
+.previous-button{
+    height: 10px;
+}
+
+
+
+
+
+
+
